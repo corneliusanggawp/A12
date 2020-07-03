@@ -1,0 +1,510 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Quicksand";
+    margin: 0;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+.container {
+    max-width: 1250px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 124px;
+    margin: 25px 10px 25px 50px;
+}
+
+.text {}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    display: inline;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+}
+
+.header-right li {
+    float: left;
+    list-style: none;
+    padding: 10px 10px;
+}
+
+.beranda {
+    padding: 180px 0 150px 0;
+    background-image: url(../graphic/background/beranda.png);
+    background-size: 100%;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.beranda h1 {
+    font-style: normal;
+    font-weight: normal;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.beranda img {
+    width: 40%;
+}
+
+.jelajah {
+    padding: 70px 0 140px 0;
+    background-image: url(../graphic/background/jelajah.png);
+    background-size: 100%;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.jelajah img {
+    width: 30%;
+}
+
+.jelajah-image {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.jelajah-image .wisata {
+    float: left;
+    width: 25%;
+    padding: 30px 10px;
+    cursor: pointer;
+}
+
+.jelajah-image .wisata .icons {
+    top: 10px;
+    width: 100%;
+    height: 220px;
+    border-radius: 8px;
+    transition: .05s;
+}
+
+.jelajah-image .wisata .alam {
+    background-image: url(../graphic/image/Ubud.jpg);
+    background-size: 100%;
+    background-size: cover;
+}
+
+.jelajah-image .wisata .budaya {
+    background-image: url(../graphic/image/PuraBesakih.jpg);
+    background-size: 100%;
+    background-size: cover;
+}
+
+.jelajah-image .wisata .kuliner {
+    background-image: url(../graphic/image/Sate.jpg);
+    background-size: 100%;
+    background-size: cover;
+}
+
+.jelajah-image .wisata .kebudayaan {
+    background-image: url(../graphic/image/Wayang.jpg);
+    background-size: 100%;
+    background-size: cover;
+}
+
+.jelajah-image .wisata .alam:hover {
+    transform: scale(1.05);
+}
+
+.jelajah-image .wisata .budaya:hover {
+    transform: scale(1.05);
+}
+
+.jelajah-image .wisata .kuliner:hover {
+    transform: scale(1.05);
+}
+
+.jelajah-image .wisata .kebudayaan:hover {
+    transform: scale(1.05);
+}
+
+.jelajah-image .wisata .icons img {
+    width: 100%;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.jelajah-image .wisata .icons h3 {
+    width: 100%;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.blog {
+    padding: 50px 0 150px 0;
+    background-image: url(../graphic/background/blog.png);
+    background-size: 100%;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.blog img {
+    width: 10%;
+}
+
+.blog h4 {
+    color: white;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+}
+
+.blog .articles {
+    max-width: 1000px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.blog .articles .article {
+    float: left;
+    width: 25%;
+    padding: 30px 10px;
+    cursor: pointer;
+}
+
+.blog .article .thumbnail {
+    top: 10px;
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+.blog .article .thumbnail.artikel1 {
+    background-image: url(../graphic/image/Bromo.jpg);
+    background-size: 100%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.blog .article .thumbnail.artikel2 {
+    background-image: url(../graphic/image/Pace.jpg);
+    background-size: 100%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.blog .article .thumbnail.artikel3 {
+    background-image: url(../graphic/image/Borobudur.jpg);
+    background-size: 100%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.blog .article .thumbnail.artikel4 {
+    background-image: url(../graphic/image/PadarIsland.jpg);
+    background-size: 100%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.blog .article .thumbnail.artikel1:hover {
+    transform: scale(1.05);
+}
+
+.blog .article .thumbnail.artikel2:hover {
+    transform: scale(1.05);
+}
+
+.blog .article .thumbnail.artikel3:hover {
+    transform: scale(1.05);
+}
+
+.blog .article .thumbnail.artikel4:hover {
+    transform: scale(1.05);
+}
+
+.contact-form {
+    padding: 30px 0 80px 0;
+    background-image: url(../graphic/background/form.png);
+    background-size: 100%;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.contact-form h1 {
+    padding: 30px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+
+.contact-form .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
+
+.contact-form .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+footer {
+    background-color: #2c95db;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer .container,
+footer .footer-inner {
+    background-color: #2c95db;
+    color: white;
+}
+
+footer .footer-inner img {
+    width: 3%;
+}
+
+.clear {
+    clear: left;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.menu-icon img {
+    display: none;
+}
+
+/*ini untuk tablet*/
+@media (max-width:1024px) {
+
+    .menu-icon {
+        display: inline-block;
+        float: right;
+    }
+
+    .menu-icon img {
+        display: inline-block;
+        width: 50px;
+        margin: 43px 45px;
+    }
+
+    body {
+        align-items: center;
+    }
+
+    .header-right {
+        display: none
+    }
+
+    .jelajah {
+        padding: 70px 0 70px 0 !important;
+    }
+
+    .jelajah h3 {
+        font-size: 16px;
+    }
+
+    .jelajah p {
+        font-size: 16px;
+    }
+
+    .blog {
+        padding: 50px 0 50px 0 !important;
+    }
+
+    .blog p {
+        font-size: 16px;
+    }
+
+    .blog h4 {
+        font-size: 16px;
+    }
+
+    .contact-form .section-title {
+        font-size: 24px;
+    }
+
+    .jelajah-image .wisata {
+        width: 50%;
+        margin-bottom: 0;
+    }
+
+    .jelajah-image .icon {
+        width: 30% !important;
+        height: auto !important;
+        border-radius: 8px !important;
+    }
+
+    .jelajah-image .icons {
+        padding-top: 20px;
+    }
+
+    .jelajah-image .wisata .alam,
+    .jelajah-image .wisata .budaya,
+    .jelajah-image .wisata .kuliner {
+        background-position-y: center;
+        background-position-x: center;
+    }
+
+    .wisata {
+        margin-bottom: 30px;
+    }
+
+    .blog .articles .article {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+}
+
+/*ini untuk handphone*/
+@media (max-width:540px) {
+    .menu-icon {
+        display: inline-block;
+        float: right;
+    }
+
+    .menu-icon img {
+        display: inline-block;
+        width: 30px;
+        height: 20px;
+        margin: 43px 45px;
+    }
+
+    .beranda img {
+        width: 70%;
+    }
+
+    .jelajah img {
+        width: 60%;
+    }
+
+    .blog img {
+        width: 30%;
+    }
+
+    .header-right {
+        display: none
+    }
+
+    .beranda h1 {
+        font-size: 16px;
+    }
+
+    .jelajah-image .jelajah-image .wisata {
+        padding: 15px 10px;
+    }
+
+    .jelajah {
+        padding: 70px 0 100px 0 !important;
+    }
+
+    .jelajah h3 {
+        font-size: 14px;
+    }
+
+    .jelajah p {
+        font-size: 14px;
+    }
+
+    .blog {
+        padding: 50px 0 50px 0 !important;
+    }
+
+    .blog p {
+        font-size: 14px;
+    }
+
+    .blog h4 {
+        font-size: 14px;
+    }
+
+    .contact-form .section-title {
+        font-size: 20px;
+    }
+
+    .jelajah-image .wisata {
+        margin-bottom: 0;
+    }
+
+    .jelajah-image .wisata .icons {
+        width: 100%;
+    }
+
+    .jelajah-image .icon {
+        padding-top: 40px;
+        width: 40% !important;
+        height: auto !important;
+    }
+
+    .jelajah-image .wisata .alam,
+    .jelajah-image .wisata .budaya,
+    .jelajah-image .wisata .kuliner {
+        background-position-y: center;
+        background-position-x: center;
+    }
+
+    .wisata {
+        margin-bottom: 20px;
+    }
+
+    .blog .articles .article {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 300px;
+    }
+
+    .kanan img {
+        margin: 13px 0;
+    }
+}
